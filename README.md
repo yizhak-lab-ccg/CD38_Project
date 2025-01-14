@@ -36,7 +36,7 @@ Ensure the datasets are saved in the appropriate directories according to your c
 ## Repository Structure
 
 ```
-scRNAseq_ici_analysis/
+CD38_Project/
 |
 |-- Sade_Feldman_et_al_Melanoma_analysis.ipynb
 |-- Caushi_et_al_NSCLC_analysis.ipynb
