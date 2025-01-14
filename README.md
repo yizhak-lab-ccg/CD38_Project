@@ -1,6 +1,6 @@
 # scRNAseq Analysis of ICI-Treated Patients
 
-This repository contains analysis scripts for scRNAseq datasets of patients treated with immune checkpoint inhibitors (ICI). These analyses focus on understanding cellular and molecular responses in melanoma and non-small cell lung cancer (NSCLC).
+This page contains analysis scripts for scRNAseq datasets of melanoma and NSCLC patients treated with immune checkpoint inhibitors (ICI).
 
 ## Notebooks Overview
 
@@ -11,9 +11,9 @@ This notebook performs scRNAseq analysis on a melanoma dataset. Key steps includ
 - Exploratory analyses and visualization.
 
 ### 2. **Caushi et al. (NSCLC)**
-This notebook processes an NSCLC dataset to examine patient-specific and treatment-specific responses. Key steps include:
+This notebook performs scRNAseq analysis on a NSCLC dataset. Key steps include:
 - Quality control of scRNAseq data.
-- Statistical analyses and visualization of key findings.
+- Analysis and visualization.
 
 ## Prerequisites
 
@@ -26,25 +26,10 @@ Install dependencies using:
 pip install numpy pandas seaborn matplotlib statsmodels scipy scikit-learn scanpy anndata scrublet
 ```
 
-## Running the Notebooks
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/scRNAseq_ici_analysis.git
-   cd scRNAseq_ici_analysis
-   ```
-
-2. Open the notebooks in Jupyter or any compatible environment:
-   ```bash
-   jupyter notebook
-   ```
-
-3. Navigate to the respective notebook and follow the instructions within to reproduce the results.
-
 ## Data Sources
 
-- The **Sade-Feldman** dataset can be downloaded from the [Single-Cell Portal](https://singlecell.broadinstitute.org/single_cell).
-- The **Caushi** dataset is available via [link or repository] (update with source).
+- The **Sade-Feldman et al. Melanoma** dataset can be downloaded from the [Single-Cell Portal](https://singlecell.broadinstitute.org/single_cell).
+- The **Caushi et al. NSCLC** dataset is available via [GSE176021].
 
 Ensure the datasets are saved in the appropriate directories as specified in the notebooks.
 
@@ -55,19 +40,14 @@ scRNAseq_ici_analysis/
 |
 |-- Sade_Feldman_et_al_Melanoma_analysis.ipynb
 |-- Caushi_et_al_NSCLC_analysis.ipynb
-|-- data/  # Folder for storing raw datasets
-|-- results/  # Folder for saving analysis outputs
 ```
 
 ## Citation
 
-If you use this repository, please cite the original studies:
-- Sade-Feldman M et al.
-- Caushi JX et al.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+If you use this repository, please consider citing our paper with the relevant original studies:
+- Revach et al.
+- Sade-Feldman et al.
+- Caushi et al.
 
 ---
-For questions or issues, please contact [ofirshorer@campus.technion.ac.il].
+For questions or issues, please contact ofirshorer@campus.technion.ac.il.
