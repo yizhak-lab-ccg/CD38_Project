@@ -28,7 +28,7 @@ pip install numpy pandas seaborn matplotlib statsmodels scipy scikit-learn scanp
 
 ## Data Sources
 
-- The **Sade-Feldman et al. Melanoma** dataset, including patient metadata, clustering and tSNE coordinates, can be downloaded from the [Single-Cell Portal](https://singlecell.broadinstitute.org/single_cell/study/SCP398/defining-t-cell-states-associated-with-response-to-checkpoint-immunotherapy-in-melanoma).
+- The **Sade-Feldman et al. Melanoma** dataset, including patient metadata, clustering and tSNE coordinates, can be downloaded from the [Single-Cell Portal](https://singlecell.broadinstitute.org/single_cell/study/SCP398/defining-t-cell-states-associated-with-response-to-checkpoint-immunotherapy-in-melanoma). Expression matrix is also available via [GSE120575](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120575).
 - The **Caushi et al. NSCLC** dataset is available via [GSE176021](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176021).
 
 Ensure the datasets are saved in the appropriate directories according to your convenience.
