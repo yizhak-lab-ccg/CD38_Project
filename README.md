@@ -1,6 +1,6 @@
 # scRNAseq Analysis of ICI-Treated Patients
 
-This page contains analysis scripts for scRNAseq datasets of melanoma and NSCLC patients treated with immune checkpoint inhibitors (ICI).
+This page contains analysis scripts for scRNAseq datasets of melanoma and NSCLC patients treated with immune checkpoint inhibitors (ICIs).
 
 ## Notebooks Overview
 
